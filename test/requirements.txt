@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+pypdf
+anthropic
+
+# v2 only (auth, persistence) — not required for the v1 MVP endpoint
+sqlalchemy[asyncio]
+asyncpg
+pyjwt
+passlib[bcrypt]

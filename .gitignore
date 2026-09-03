@@ -1,0 +1,17 @@
+# Environment variables / secrets
+.env
+backend/.env
+
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node / frontend
+node_modules/
+dist/
+
+# OS junk
+.DS_Store
+Thumbs.db
