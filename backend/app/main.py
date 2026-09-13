@@ -9,7 +9,10 @@ app = FastAPI(title="AI Note & Quiz Generator")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+    "http://localhost:5173",
+    "https://ai-note-quiz-generator-c655zkmph-mohmakes.vercel.app",
+], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
